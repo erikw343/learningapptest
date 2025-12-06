@@ -31,7 +31,7 @@ jobs:
         run: msbuild learningapptest/learningapptest.sln /nologo /verbosity:m /t:Build /p:_PackageTempDir="\published\"
 
       - name: Upload artifact for deployment job
-        uses: actions/upload-artifact
+        uses: actions/upload-artifact@v4
         with:
           name: ASP-app
           path: '/published/**'
@@ -45,7 +45,7 @@ jobs:
 
     steps:
       - name: Download artifact from build job
-        uses: actions/download-artifact
+        uses: actions/download-artifact@v4
         with:
           name: ASP-app
       
@@ -65,6 +65,7 @@ jobs:
           package: .
 
           
+
 
 
 
