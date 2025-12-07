@@ -28,13 +28,13 @@ jobs:
         run: nuget restore learningapptest/learningapptest.sln
 
       - name: Publish to folder
-        run: msbuild learningapptest/learningapptest.sln /nologo /verbosity:m /t:Build /p:outdir=published
+        run: msbuild learningapptest/learningapptest.sln /nologo /verbosity:m /t:Build /p:outdir=obj/Release/Package/PackageTmp/published
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: ASP-app
-          path: 'learningapptest/published/**'
+          path: 'learningapptest/obj/Release/Package/PackageTmp/published/**'
 
   deploy:
     runs-on: windows-latest
@@ -65,6 +65,7 @@ jobs:
           package: .
 
           
+
 
 
 
