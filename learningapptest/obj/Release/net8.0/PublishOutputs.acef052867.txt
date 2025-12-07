@@ -1,7 +1,0 @@
-C:\Users\Erik\Desktop\AZURE_AZ_204_ALAN_COURSE\CH13\learningapptest\bin\Publish\learningapptest.exe
-C:\Users\Erik\Desktop\AZURE_AZ_204_ALAN_COURSE\CH13\learningapptest\bin\Publish\appsettings.Development.json
-C:\Users\Erik\Desktop\AZURE_AZ_204_ALAN_COURSE\CH13\learningapptest\bin\Publish\appsettings.json
-C:\Users\Erik\Desktop\AZURE_AZ_204_ALAN_COURSE\CH13\learningapptest\bin\Publish\learningapptest.dll
-C:\Users\Erik\Desktop\AZURE_AZ_204_ALAN_COURSE\CH13\learningapptest\bin\Publish\learningapptest.deps.json
-C:\Users\Erik\Desktop\AZURE_AZ_204_ALAN_COURSE\CH13\learningapptest\bin\Publish\learningapptest.runtimeconfig.json
-C:\Users\Erik\Desktop\AZURE_AZ_204_ALAN_COURSE\CH13\learningapptest\bin\Publish\learningapptest.pdb
